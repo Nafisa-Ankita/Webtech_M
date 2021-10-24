@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    
+    <form method="" action="">
+    <p>* - Denotes Required Informtion</p>
+    <p><strong>>1 Donation  </strong> >2 Confirmation   >3 Thank you</p> 
+    <p style="color: red; font-size: 40px;">Donor Information</p>
+
+        <label > <strong>First Name*</strong> </label>
+        <input type="text" id="fn" name="fn"><br>
+        <label > <strong>Last Name*</strong> </label>
+        <input type="text" id="ln" name="ln"><br>
+        <label > <strong>Company</strong> </label>
+        <input type="text" id="com" name="com"><br>
+        <label > <strong>Address1*</strong> </label>
+        <input type="text" id="add" name="add"><br>
+        <label > <strong>Address2</strong> </label>
+        <input type="text" id="add2" name="add2"><br>
+        <label > <strong>City</strong> </label>
+        <input type="text" id="city" name="city"><br>
+        <label for state> <strong>State</strong> </label>
+        <select id="state" name="state" id="">
+            <option value="Dhaka"> Dhaka </option>
+            <option value="Sylhet"> Sylhet</option>
+            <option value="Barishal"> Barishal</option>
+            <option value="Bagura"> Bagura</option>
+            <option value="Jessore"> Jessore </option>
+        </select><br>
+        <label> <strong>Zip Code</strong></label>
+        <input style="font-variant-numeric: normal;"><br>
+        <label for country> <strong> Country</strong></label>
+        <select name="country" id="country">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="India"> India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Srilanka">Srilanka</option>
+            <option value="Afganistan">Afganistan</option>
+        </select><br>
+        <label><strong>Phone</strong></label>
+        <input type="number"> <br>
+        <label><strong> Fax</strong></label>
+        <input type="text"><br>
+        <label><strong>Email</strong></label>
+        <input type="text"><br>
+        <label for="Amount"> <strong> Donation Amount</strong></label>
+        <input type="radio" id="Amount" name="Amount" value="None">None
+        <input type="radio" id="Amount" name="Amount" value="$50">$50
+        <input type="radio" id="Amount" name="Amount" value="$75">$75
+        <input type="radio" id="Amount" name="Amount" value="$100">$100
+        <input type="radio" id="Amount" name="Amount" value="$250">$250<br>
+        <label for="rd"><strong>Recurring Donation</strong></label>
+        <input type="checkbox" id="rd" name="rd" >I am interested giving on a regular basis
+
+        <p style="color: red; font-size: 40px;">Honorarium and Memorial Donation</p>
+        <label for="HoD"> <strong>I would like to make this donation</strong></label>
+        <input type="radio" id="HoD" name="HoD" >To Honor
+        <input type="radio" id="HoD" name="HoD" >In memory of
+        <br>
+        <label><strong>Name</strong></label>
+        <input type="text" id="name" name="name"><br>
+        <label><strong> Acknowledge donation to</strong></label>
+        <input type="text" id="ad" name="ad">
+        
+    </form>
+    
+</body>
+</html>
